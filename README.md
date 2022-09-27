@@ -1,13 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Awesome Book Store
 
 ### This project is a task by Microverse.
 
 #### Milestone completed:
 
-- [x] Add books dynamically
-
+- [x] Add plain HTML for Book Store.
+- [x] Add array for book collection.
+- [x] Add function to add a new book to the collection.
+- [x] Add function to remove a book from the collection.
+- [x] Display books stored in the array.
+- [x] Add local storage functionality.
 
 ## Language Used
 
