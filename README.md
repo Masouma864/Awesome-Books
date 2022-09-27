@@ -43,15 +43,15 @@
 
 > [GitHub](https://github.com/masouma2020)
 
->  LinkedIn: [Masouma Modarresi](https://www.linkedin.com/in/masouma-m-9572a41b5/)
+> [LinkedIn](https://www.linkedin.com/in/masouma-m-9572a41b5/)
 
 #### Kasaija Kenneth
 
-> [Github link](https://github.com/Kasaija-Kenneth)
+> [Github](https://github.com/Kasaija-Kenneth)
 
-> [Twitter link](https://twitter.com/@kenn_ug)
+> [Twitter](https://twitter.com/@kenn_ug)
 
-> [LinkedIn link](https://linkedin.com/in/kenneth-k-310722234)
+> [LinkedIn](https://linkedin.com/in/kenneth-k-310722234)
 
 #### Umer Zia
 
