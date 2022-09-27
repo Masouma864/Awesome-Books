@@ -81,4 +81,4 @@ Give a ⭐ if you like this project!
 
 ## 📝 License
 
-- This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) licensed.
+- This project is [GENERAL PUBLIC LICENSE](https://github.com/UmerZia/Awesome-books/blob/plain-js/LICENSE) licensed.
