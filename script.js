@@ -38,3 +38,53 @@ class UI {
     document.querySelector(".author").value = "";
   }
 }
+// STORE CLASS
+class Store {
+  static getBooks() {
+    let books;
+    if (localStorage.getItem('books') === null) {
+      books = [];
+    } else {
+      books = JSON.parse(localStorage.getItem('books'));
+    }
+    return books;
+  }
+  static addBook(book) {
+    const books = Store.getBooks();
+    books.push(book);
+    localStorage.setItem('books', JSON.stringify(books));
+  }
+  static removeBook(book) {
+    const bookTitle = book.querySelector('#title').innerText;
+    const books = Store.getBooks();
+    const filt = books.filter((book) => bookTitle === book.title);
+    const filtIndex = books.indexOf(filt[0]);
+    books.splice(filtIndex, 1);
+    localStorage.setItem('books', JSON.stringify(books));
+  }
+}
+//EVENT TO DISPLAY BOOKS
+document.addEventListener('DOMContentLoaded', UI.displayBooks);
+//EVENT TO ADD A BOOK
+document.querySelector('.bookForm').addEventListener('submit', (e) => {
+  e.preventDefault();
+  //get form values
+  const titleInput = document.querySelector('.title').value;
+  const authorInput = document.querySelector('.author').value;
+  const book = new Book(titleInput, authorInput);
+  console.log(book);
+  //ADD BOOK TO LIST
+  UI.addBookToList(book);
+  //ADD BOOK TO STORE
+  Store.addBook(book);
+  //CLEAR FIELDS
+  UI.clearFields();
+});
+//EVENT DELETE
+document.querySelector('.books').addEventListener('click', (e) => {
+  if (e.target.className === 'delete') {
+    const book = e.target.parentElement;
+    Store.removeBook(book);
+    UI.deleteBook(e.target);
+  }
+});
