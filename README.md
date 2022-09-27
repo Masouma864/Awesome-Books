@@ -49,11 +49,11 @@
 
 #### Kasaija Kenneth
 
-> [GitHub]()
+> [Github link](https://github.com/Kasaija-Kenneth)
 
-> [Twitter]()
+> [Twitter link](https://twitter.com/@kenn_ug)
 
-> [LinkedIn]()
+> [LinkedIn link](https://linkedin.com/in/kenneth-k-310722234)
 
 #### Umer Zia
 
