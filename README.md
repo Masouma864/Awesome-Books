@@ -13,6 +13,10 @@
 - [x] Display books stored in the array.
 - [x] Add local storage functionality.
 - [x] Add CSS styles to the application.
+- [x] Add live time and date.
+- [x] Add `Contact Us`.
+- [x] Add `Navigation bar`.
+- [x] Dynamically switch pages via js.
 
 ## Language Used
 
@@ -46,25 +50,15 @@
 
 #### Masouma Modarresi
 
-> [GitHub](https://github.com/masouma2020)
-
-> [LinkedIn](https://www.linkedin.com/in/masouma-m-9572a41b5/)
+[GitHub](https://github.com/masouma2020) | [LinkedIn](https://www.linkedin.com/in/masouma-m-9572a41b5/)
 
 #### Kasaija Kenneth
 
-> [Github](https://github.com/Kasaija-Kenneth)
-
-> [Twitter](https://twitter.com/@kenn_ug)
-
-> [LinkedIn](https://linkedin.com/in/kenneth-k-310722234)
+[Github](https://github.com/Kasaija-Kenneth) | [Twitter](https://twitter.com/@kenn_ug) | [LinkedIn](https://linkedin.com/in/kenneth-k-310722234)
 
 #### Umer Zia
 
-> [GitHub](https://github.com/UmerZia)
-
-> [Twitter](https://twitter.com/InfinusDesign)
-
-> [LinkedIn](https://linkedin.com/in/umer-zia-30906a183/)
+[GitHub](https://github.com/UmerZia) | [Twitter](https://twitter.com/InfinusDesign) | [LinkedIn](https://linkedin.com/in/umer-zia-30906a183/)
 
 ## 🤝 Contributing
 
