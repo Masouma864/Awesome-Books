@@ -175,3 +175,9 @@
       font-family: bubblegum, sans-serif;
       font-size: 20px;
     }
+     /* Time and date */
+  #time {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px 20px;
+  }
