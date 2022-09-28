@@ -133,3 +133,23 @@
 .btnAdd {
   align-self: flex-end;
 }
+/* Contact Information */
+#contact {
+    padding: 50px 30px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .contact__heading {
+    font-family: bubblegum, sans-serif;
+    font-size: 35px;
+  }
+  .contact__headline {
+    font-size: 22px;
+  }
+  .contact__info {
+    font-size: 18px;
+  }
