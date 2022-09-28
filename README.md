@@ -12,6 +12,7 @@
 - [x] Add function to remove a book from the collection.
 - [x] Display books stored in the array.
 - [x] Add local storage functionality.
+- [x] Add CSS styles to the application.
 
 ## Language Used
 
