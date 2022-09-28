@@ -13,6 +13,48 @@
   box-sizing: border-box;
 }
 
+/* Navigation */
+#navBar {
+    padding: 10px 30px 20px;
+  }
+  
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: var(--dark-grey) 3px solid;
+    padding: 5px 20px;
+  }
+  
+  .navBar__heading {
+    font-family: bubblegum, sans-serif;
+    font-size: 20px;
+  }
+  
+  .navBar__link {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .navBar__link:hover {
+    cursor: pointer;
+  }
+  
+  .navBar__link--item {
+    font-family: bubblegum, sans-serif;
+    font-size: 17px;
+  }
+  
+  #list, #add-new {
+    border-right: var(--dark-blue) 3px solid;
+    padding-right: 20px;
+  }
+  
+  #list:hover, #add-new:hover, #contact-nav:hover {
+    color: var(--dark-blue);
+  }
+
 /* Book List */
 #store {
   padding: 50px 30px;
