@@ -34,7 +34,7 @@
 
 ### Steps
 
-- To clone the project select the desired directory in cmd and run: `git clone https://github.com/masouma2020/Awesome-Books-Set.git`
+- To clone the project select the desired directory in cmd and run: `https://github.com/UmerZia/Awesome-books`
 - Install node.js, Install NPM linters for HTML/CSS/JS: `https://github.com/microverseinc/linters-config`
 - For StyLint test, run: `npx stylelint "**/*.{css,scss}"`
 - For WebHint test, run: `npx hint .`
