@@ -133,6 +133,7 @@
 .btnAdd {
   align-self: flex-end;
 }
+
 /* Contact Information */
 #contact {
     padding: 50px 30px;
@@ -153,3 +154,24 @@
   .contact__info {
     font-size: 18px;
   }
+
+    /* Footer */
+    #footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 20px 30px 10px;
+    }
+    
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border: var(--dark-grey) 3px solid;
+      padding: 5px 20px;
+    }
+    
+    .footer__content {
+      font-family: bubblegum, sans-serif;
+      font-size: 20px;
+    }
