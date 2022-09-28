@@ -4,6 +4,7 @@
   --light-grey: #e4e4e4;
   --dark-grey: #131313;
   --white: #fff;
+  --dark-blue: #073763;
 }
 
 * {
@@ -12,7 +13,10 @@
   box-sizing: border-box;
 }
 
-/* Main Body */
+/* Book List */
+#store {
+  padding: 50px 30px;
+}
 .store {
   background: var(--white);
   display: flex;
@@ -20,21 +24,20 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
-  padding: 50px 0;
+
 }
 
 .store--heading {
   font-family: bubblegum, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 35px;
 }
 
-/* Book List */
 .books {
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 100%;
   justify-content: center;
   border: var(--dark-grey) solid 3px;
 }
@@ -63,6 +66,9 @@
 }
 
 /* Add book */
+#bookForm {
+  justify-content: center;
+}
 
 .bookForm {
   display: flex;
@@ -73,6 +79,7 @@
 
 .bookForm__heading {
   font-family: bubblegum, sans-serif;
+  font-size: 35px;
   align-self: center;
 }
 
