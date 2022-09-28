@@ -43,25 +43,22 @@ class UI {
   static addBookToList(book) {
     const books = document.querySelector('.books');
     const newBook = document.createElement('div');
-    newBook.innerHTML = `
-        <div>
-        <div class="bookDiv">
-        <div class="bookTitleAuthor">
-        <h4 id="title">"${book.title}"</h4>
-        <p class="by">by</p>
-        <h4 id="author" >${book.author}</h4>
-        </div>
-        <button class="delete">Remove</button>
-        </div>
-        <hr class="hr">
-        </div>
-        `;
+    newBook.insertAdjacentHTML('afterbegin', `
+  <div class="bookDiv">
+    <div class="bookTitleAuthor">
+      <h4 id="title">"${book.title}"</h4>
+      <p class="by">by</p>
+      <h4 id="author">${book.author}</h4>
+    </div>
+    <button class="btnRemove">Remove</button>
+  </div>
+        `);
     newBook.classList.add('newBook');
     books.appendChild(newBook);
   }
 
   static deleteBook(el) {
-    if (el.classList.contains('delete')) {
+    if (el.classList.contains('btnRemove')) {
       el.parentElement.parentElement.remove();
     }
   }
@@ -90,7 +87,7 @@ document.querySelector('.bookForm').addEventListener('submit', (e) => {
 });
 // EVENT DELETE
 document.querySelector('.books').addEventListener('click', (e) => {
-  if (e.target.className === 'delete') {
+  if (e.target.className === 'btnRemove') {
     const book = e.target.parentElement;
     Store.removeBook(book);
     UI.deleteBook(e.target);
